@@ -11,6 +11,7 @@ namespace Queries
         public int Year
         {   get
             {
+                
                 Console.WriteLine($"Returning {_year} for {Title}");                
                 return _year;
             }
